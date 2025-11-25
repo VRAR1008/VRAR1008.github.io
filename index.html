@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>UAS VR KLP 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-first-look">
+        <li class="text">first look</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-parkiran">
+        <li class="text">parkiran</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-halaman-ujung-tangga-masuk">
+        <li class="text">halaman ujung tangga masuk</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-sudut-tangga-masuk">
+        <li class="text">sudut tangga masuk</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-adminb">
+        <li class="text">adminb</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-samping-admin">
+        <li class="text">samping admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-tengah-bawah-tempat-duduk-utama">
+        <li class="text">tengah bawah tempat duduk utama</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-sudut-ujung-lorong-admin">
+        <li class="text">sudut ujung lorong admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-pano_20251103_162615_9">
+        <li class="text">PANO_20251103_162615_9</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-tangga-tengah-">
+        <li class="text">tangga tengah </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-ujung-tangga-atas">
+        <li class="text">ujung tangga atas</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-ruangan-atas-tutup">
+        <li class="text">ruangan atas tutup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-ujung-lorong-atas">
+        <li class="text">ujung lorong atas</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-meja-atas-perpu">
+        <li class="text">meja atas perpu</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-lawan-arah-ujung">
+        <li class="text">lawan arah ujung</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-samping-ujung-lawan-arah">
+        <li class="text">samping ujung lawan arah</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-lorong-samping-balkon">
+        <li class="text">lorong samping balkon</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-wc-cewe">
+        <li class="text">wc cewe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-wc-cowo">
+        <li class="text">wc cowo</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
